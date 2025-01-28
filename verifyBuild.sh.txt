@@ -1,0 +1,5 @@
+# Verify index.html exists in the copied build directory
+if [ ! -f myWebsite/index.html ]; then
+    echo "Error: index.html not found in myWebsite/"
+    exit 1
+fi
